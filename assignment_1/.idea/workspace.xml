@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="CCGHomework" targetName="CutGraph" />
@@ -11,12 +29,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5135cba5-9f2c-4346-924e-717ccc244fed" name="Default Changelist" comment="">
+    <list default="true" id="5135cba5-9f2c-4346-924e-717ccc244fed" name="Default Changelist" comment="Compilable version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cutgraph/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cutgraph/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cutgraph/src/Viewer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cutgraph/src/Viewer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/MeshLib/core/Mesh/Vertex.h" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/MeshLib/core/Mesh/Vertex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cutgraph/src/CutGraph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cutgraph/src/CutGraph.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +65,7 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunManager">
-    <configuration name="CutGraph" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CCGHomework" TARGET_NAME="CutGraph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CCGHomework" RUN_TARGET_NAME="CutGraph">
+    <configuration name="CutGraph(Eight)" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/data/eight.m" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CCGHomework" TARGET_NAME="CutGraph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CCGHomework" RUN_TARGET_NAME="CutGraph">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -65,33 +81,88 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594370504729</updated>
-      <workItem from="1594370506532" duration="1582000" />
+      <workItem from="1594370506532" duration="12574000" />
     </task>
+    <task id="LOCAL-00001" summary="Compilable version">
+      <created>1594372313497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594372313497</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Compilable version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compilable version" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="-1496" y="-67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594370587058">
+    <state x="-1496" y="-67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594375897683">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state x="-1496" y="-67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594370587058" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1594371949685">
+    <state x="-1496" y="-67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594375897683" />
+    <state width="1878" height="237" key="GridCell.Tab.0.bottom" timestamp="1594390563994">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594371949685" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1594371949684">
+    <state width="1878" height="237" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594390563994" />
+    <state width="1878" height="237" key="GridCell.Tab.0.center" timestamp="1594390563993">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594371949684" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1594371949683">
+    <state width="1878" height="237" key="GridCell.Tab.0.center/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594390563993" />
+    <state width="1878" height="237" key="GridCell.Tab.0.left" timestamp="1594390563993">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594371949683" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1594371949685">
+    <state width="1878" height="237" key="GridCell.Tab.0.left/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594390563993" />
+    <state width="1878" height="237" key="GridCell.Tab.0.right" timestamp="1594390563994">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594371949685" />
+    <state width="1878" height="237" key="GridCell.Tab.0.right/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594390563994" />
+    <state width="1878" height="294" key="GridCell.Tab.1.bottom" timestamp="1594390455826">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="294" key="GridCell.Tab.1.bottom/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594390455826" />
+    <state width="1878" height="294" key="GridCell.Tab.1.center" timestamp="1594390455826">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="294" key="GridCell.Tab.1.center/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594390455826" />
+    <state width="1878" height="294" key="GridCell.Tab.1.left" timestamp="1594390455825">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="294" key="GridCell.Tab.1.left/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594390455825" />
+    <state width="1878" height="294" key="GridCell.Tab.1.right" timestamp="1594390455826">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="294" key="GridCell.Tab.1.right/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594390455826" />
+    <state x="-1360" y="11" key="Vcs.Push.Dialog.v2" timestamp="1594372331286">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="-1360" y="11" key="Vcs.Push.Dialog.v2/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594372331286" />
+    <state x="-1253" y="-96" width="586" height="735" key="find.popup" timestamp="1594377584547">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="-1253" y="-96" width="586" height="735" key="find.popup/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594377584547" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="pV-&gt;valence()" language="ObjectiveC" />
+        <watch expression="pW-&gt;valence()" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

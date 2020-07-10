@@ -9,11 +9,11 @@
 #ifndef  _MESHLIB_VERTEX_H_
 #define  _MESHLIB_VERTEX_H_
 
-#include <stdlib.h>
+#include <cstdlib>
 #include <string>
 #include <list>
 #include "../Geometry/Point.h"
-#include "../Geometry/Point2.h"
+#include "../Geometry/Point2.H"
 #include "HalfEdge.h"
 
 namespace MeshLib{
