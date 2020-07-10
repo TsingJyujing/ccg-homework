@@ -3,7 +3,8 @@
 #include <cstdlib>
 
 #include <GLUT/glut.h>
-
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
 #include "viewer/Arcball.h" /*  Arc Ball  Interface         */
 #include "CutGraphMesh.h"
 #include "CutGraph.h"

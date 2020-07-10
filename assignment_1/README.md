@@ -1,4 +1,4 @@
-# Computational Conformal Geometry Homework
+# Computational Conformal Geometry Homework (Mac)
 
 This C++ project framework is used to help students to implement geometric algorithms. It contains a halfedge data structure library `MeshLib` and an simple opengl viewer.
 
@@ -6,10 +6,12 @@ This C++ project framework is used to help students to implement geometric algor
 
 The code is only tested on Windows, but it should work on Linux and Mac with minor midifications. If there is any problem on the latter two platforms, please let me know.
 
+
 ## Dependencies
  
 1. `MeshLib`, a mesh library based on halfedge data structure.
 2. `freeglut`, a free-software/open-source alternative to the OpenGL Utility Toolkit (GLUT) library.
+    - Install freeglut: `brew install freeglut` before build 
 
 ## Directory Structure
 

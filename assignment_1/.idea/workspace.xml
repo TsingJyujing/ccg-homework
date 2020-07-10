@@ -1,40 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="CCGHomework" targetName="CutGraph" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5279735d-1b70-4a57-9a47-46ae12f3e0e8" name="Default Changelist" comment="Copy init code form teacher">
+    <list default="true" id="5135cba5-9f2c-4346-924e-717ccc244fed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/MeshLib/core/Mesh/BaseMesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/MeshLib/core/Mesh/BaseMesh.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/MeshLib/core/Mesh/boundary.h" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/MeshLib/core/Mesh/boundary.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/MeshLib/core/Parser/strutil.h" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/MeshLib/core/Parser/strutil.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cutgraph/include/CutGraphMesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/cutgraph/include/CutGraphMesh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cutgraph/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cutgraph/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cutgraph/src/Viewer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cutgraph/src/Viewer.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +26,14 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="7byjd9t0" />
+    <option name="directoryName" value="sb79x2xw" />
   </component>
-  <component name="ProjectId" id="1eUHv8HHmlviNxZVdyFOzu19mSv" />
+  <component name="ProjectId" id="1eUK05eK5ScorUBFBngsgS5yZys" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,60 +42,56 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
-  <component name="RunManager" selected="CMake Application.CutGraph">
+  <component name="RunManager">
     <configuration name="CutGraph" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CCGHomework" TARGET_NAME="CutGraph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CCGHomework" RUN_TARGET_NAME="CutGraph">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mesh" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CCGHomework" TARGET_NAME="mesh" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="viewer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CCGHomework" TARGET_NAME="viewer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CCGHomework" RUN_TARGET_NAME="viewer">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake Application.CutGraph" />
-      <item itemvalue="CMake Application.mesh" />
-      <item itemvalue="CMake Application.viewer" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5279735d-1b70-4a57-9a47-46ae12f3e0e8" name="Default Changelist" comment="Copy init code form teacher" />
-      <created>1594369478818</created>
+      <changelist id="5135cba5-9f2c-4346-924e-717ccc244fed" name="Default Changelist" comment="" />
+      <created>1594370504729</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1594369478818</updated>
-      <workItem from="1594369479992" duration="33000" />
+      <updated>1594370504729</updated>
+      <workItem from="1594370506532" duration="1582000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="-1219" y="-19" key="RollbackChangesDialog" timestamp="1594368841489">
+    <state x="-1496" y="-67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594370587058">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state x="-1219" y="-19" key="RollbackChangesDialog/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594368841489" />
-    <state x="-1295" y="-22" key="search.everywhere.popup" timestamp="1594368830008">
+    <state x="-1496" y="-67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594370587058" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1594371949685">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state x="-1295" y="-22" key="search.everywhere.popup/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594368830008" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594371949685" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1594371949684">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594371949684" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1594371949683">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594371949683" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1594371949685">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594371949685" />
   </component>
 </project>

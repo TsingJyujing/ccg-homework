@@ -1,5 +1,6 @@
 project(CutGraph)
 
+find_package(OpenGL REQUIRED)
 # Include MeshLib core and the 'include' of the project itsself
 include_directories(
     "include"
@@ -19,13 +20,7 @@ file(GLOB SRCS
 add_executable(CutGraph ${SRCS})
 
 # Link the libraries of freeglut
-if(CMAKE_CL_64)
-  target_link_libraries(CutGraph
-    "${freeglut_DIR}/lib/x64/freeglut.lib")
-else(CMAKE_CL_64)
-  target_link_libraries(CutGraph
-    "${freeglut_DIR}/lib/freeglut.lib")
-endif(CMAKE_CL_64)
+target_link_libraries(CutGraph FreeGLUT::freeglut ${OPENGL_gl_LIBRARY})
 
 # Install the executeable program in the bin folder of the
 # current project directory.
