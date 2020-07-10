@@ -318,14 +318,14 @@ CBoundary<CVertex, CEdge, CFace, CHalfEdge>::CBoundary( CBaseMesh<CVertex, CEdge
 	while( !boundary_hes.empty() )
 	{
 		//get the first boundary halfedge
-		std::set<CHalfEdge*>::iterator siter = boundary_hes.begin();
+		typename std::set<CHalfEdge*>::iterator siter = boundary_hes.begin();
 		CHalfEdge * he = *siter;
 		//trace along this boundary halfedge
 		CLoop<CVertex, CEdge, CFace, CHalfEdge> * pL = new CLoop<CVertex, CEdge, CFace, CHalfEdge>( m_pMesh, he );
 		assert(pL);
 		m_loops.push_back( pL );
 		//remove all the boundary halfedges, which are in the same boundary loop as the head, from the halfedge list
-		for( std::list<CHalfEdge*>::iterator hiter = pL->halfedges().begin(); 
+		for (typename std::list<CHalfEdge*>::iterator hiter = pL->halfedges().begin();
 			hiter != pL->halfedges().end(); hiter ++ )
 		{
 			CHalfEdge * he = *hiter;
@@ -360,7 +360,7 @@ void CLoop<CVertex, CEdge, CFace, CHalfEdge>::write( const char * file_name )
 {
 	std::ofstream myfile;
 	myfile.open (file_name);
-	for( std::list<CHalfEdge*>::iterator hiter = m_halfedges.begin(); hiter != m_halfedges.end(); hiter ++ )
+	for (typename std::list<CHalfEdge*>::iterator hiter = m_halfedges.begin(); hiter != m_halfedges.end(); hiter ++ )
 	{
 		CHalfEdge * pH = *hiter;
 		CVertex * pV = m_pMesh->halfedgeSource(pH);
@@ -406,7 +406,7 @@ template<typename CVertex, typename CEdge, typename CFace, typename CHalfEdge>
 void CLoop<CVertex, CEdge, CFace, CHalfEdge>::divide( std::vector<CVertex*> & markers )
 {
 	std::deque<CHalfEdge*> queue;
-	for( std::list<CHalfEdge*>::iterator hiter = m_halfedges.begin(); hiter != m_halfedges.end(); hiter ++ )
+	for (typename std::list<CHalfEdge*>::iterator hiter = m_halfedges.begin(); hiter != m_halfedges.end(); hiter ++ )
 	{
 		CHalfEdge * ph = *hiter;
 		queue.push_back( ph );

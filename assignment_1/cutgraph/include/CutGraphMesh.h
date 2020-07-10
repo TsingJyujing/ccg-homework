@@ -1,15 +1,15 @@
 #ifndef _CUT_GRAPH_MESH_
 #define _CUT_GRAPH_MESH_
 
-#include "Mesh\BaseMesh.h"
-#include "Mesh\Edge.h"
-#include "Mesh\Face.h"
-#include "Mesh\HalfEdge.h"
-#include "Mesh\Vertex.h"
+#include "Mesh/BaseMesh.h"
+#include "Mesh/Edge.h"
+#include "Mesh/Face.h"
+#include "Mesh/HalfEdge.h"
+#include "Mesh/Vertex.h"
 
-#include "Mesh\Boundary.h"
-#include "Mesh\Iterators.h"
-#include "Parser\Parser.h"
+#include "Mesh/boundary.h"
+#include "Mesh/iterators.h"
+#include "Parser/parser.h"
 
 namespace MeshLib
 {

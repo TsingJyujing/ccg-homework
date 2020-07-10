@@ -1,18 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="CCGHomework" targetName="CutGraph" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5279735d-1b70-4a57-9a47-46ae12f3e0e8" name="Default Changelist" comment="Copy init code form teacher">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/MeshLib/core/Mesh/BaseMesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/MeshLib/core/Mesh/BaseMesh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/MeshLib/core/Mesh/boundary.h" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/MeshLib/core/Mesh/boundary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/MeshLib/core/Parser/strutil.h" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/MeshLib/core/Parser/strutil.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cutgraph/include/CutGraphMesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/cutgraph/include/CutGraphMesh.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="7byjd9t0" />
+  </component>
+  <component name="ProjectId" id="1eUHv8HHmlviNxZVdyFOzu19mSv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.CutGraph">
     <configuration name="CutGraph" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CCGHomework" TARGET_NAME="CutGraph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CCGHomework" RUN_TARGET_NAME="CutGraph">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mesh" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CCGHomework" TARGET_NAME="mesh" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="viewer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CCGHomework" TARGET_NAME="viewer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CCGHomework" RUN_TARGET_NAME="viewer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.CutGraph" />
+      <item itemvalue="CMake Application.mesh" />
+      <item itemvalue="CMake Application.viewer" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5279735d-1b70-4a57-9a47-46ae12f3e0e8" name="Default Changelist" comment="Copy init code form teacher" />
+      <created>1594369478818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594369478818</updated>
+      <workItem from="1594369479992" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1219" y="-19" key="RollbackChangesDialog" timestamp="1594368841489">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="-1219" y="-19" key="RollbackChangesDialog/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594368841489" />
+    <state x="-1295" y="-22" key="search.everywhere.popup" timestamp="1594368830008">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="-1295" y="-22" key="search.everywhere.popup/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1594368830008" />
   </component>
 </project>
