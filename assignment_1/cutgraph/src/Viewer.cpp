@@ -1,8 +1,8 @@
-#include <math.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
 
-#include <GL/glut.h>
+#include <GLUT/glut.h>
 
 #include "viewer/Arcball.h" /*  Arc Ball  Interface         */
 #include "CutGraphMesh.h"
