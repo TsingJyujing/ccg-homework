@@ -29,6 +29,7 @@ void MeshLib::CCutGraph::_dual_spanning_tree()
     {
         CCutGraphEdge* pE = *eiter;
         //insert your code here
+        pE->sharp() = false;
     }
 
     // Mark all touched flags false, and select a face
@@ -37,9 +38,10 @@ void MeshLib::CCutGraph::_dual_spanning_tree()
     {
         CCutGraphFace* pF = *fiter;
         //insert your code here
+        pF->touched() = false;
         pHeadFace = pF;
     }
-    
+
     // 1. Construct the dual mesh conceptually.
 
     // 2. Generate a minimal spanning tree of the vertices in the dual mesh.
@@ -61,6 +63,9 @@ void MeshLib::CCutGraph::_dual_spanning_tree()
                 if (!pSymFace->touched())
                 {
                     //insert your code here
+                    ((CCutGraphEdge *)pSymH->edge())->sharp() = true;
+                    pSymFace->touched() = true;
+                    fQueue.push(pSymFace);
                 }
             }
         }
@@ -73,7 +78,7 @@ Modify the method _CCutGraph::_prune()
 
 ------------------------------------------------------------------------------*/
 
-void MeshLib::CCutGraph::_prune() 
+void MeshLib::CCutGraph::_prune()
 {
     // A queue used to store valence-1 vertices
     std::queue<CCutGraphVertex*> vQueue;
@@ -88,6 +93,9 @@ void MeshLib::CCutGraph::_prune()
         {
             CCutGraphEdge* pE = *veiter;
             //insert your code here
+            if (pE->sharp()) { // if this edge is valid
+                pV->valence() += 1;
+            }
         }
 
         if (pV->valence() == 1)
@@ -103,12 +111,15 @@ void MeshLib::CCutGraph::_prune()
         for (CCutGraphMesh::VertexEdgeIterator veiter(pV); !veiter.end(); ++veiter)
         {
             CCutGraphEdge* pE = *veiter;
-            CCutGraphVertex* pW = m_pMesh->edgeVertex1(pE) == pV ? 
-                m_pMesh->edgeVertex2(pE) : m_pMesh->edgeVertex1(pE);
+            CCutGraphVertex* pW = m_pMesh->edgeVertex1(pE) == pV ? m_pMesh->edgeVertex2(pE) : m_pMesh->edgeVertex1(pE);
             if (pE->sharp())
             {
                 //insert your code here
-                break;
+                pE->sharp() = false;
+                pW->valence() -= 1;
+                if (pW->valence() == 1) {
+                    vQueue.push(pW);
+                }
             }
         }
     }
